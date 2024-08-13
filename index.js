@@ -21,6 +21,17 @@ app.get("/", function(req,res){
 })
 // // in simple words I am saying that ap jab bh / is route p jao to index.ejs ko lay aao ya show karwao ussay 
 
+app.get("/profile/:username", function(req,res){//colon ka matlb h yeh part ab dynamic h so we can write /marym 
+  // req.params.username()  
+  // request.params ka matlb h aisa kuch bh jis kay agay colon h and .username is liyay bcz .username wala part h dynamic  
+  res.send(req.params.username); // wapis frontend p bheja h
+})  
+
+app.get("/profile/:username/:age", function(req,res){
+  res.send(`Hello ${req.params.username} your age is : ${req.params.age}`);
+}) 
+
 app.listen(3000,function(){
   console.log("Its running !")
 })
+
