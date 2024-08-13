@@ -1,2 +1,20 @@
-initialize the project with npm 
-express install 
+1_ initialize the project with npm (npm init -y) => creates package.json file
+
+2_ express install 
+
+3_ dynamic routing we are gonna learn there 
+
+4_ how to get data coming from frontend at backend route 
+
+5_ setting up parsers for forms 
+we are saying these both lines as parser 
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
+
+6_ setting up ejs for ejs pages 
+simply jo frontend hmy dikhy ga woh h ejs 
+actually ejs hota html kay jaisa he h but us mai aik chez ki advantage h kay woh apko dynamically bh kam kar kay dy dyta h if we write in html <h1> 2+2 </h1> => this will print 2+2 not it will calculate it but if we tell ejs to calculate it it will calculate it so this is the major difference 
+  its first step is install ejs from npm => npm i ejs 
+  setup ejs as a view engine
+
+7_ setting up public static files 
