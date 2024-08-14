@@ -8,7 +8,7 @@ what actually dynamic routing is ? hm log kabhi kabhi kuch routes dekhty hain ji
 /author/maryam
 /author/rashid
 /author/khudej
-we never create all the above roues 1 by 1 and again and again and here comes the game of dynamic routing so go to browser first => url likho apna jo you need => enter press karain => now us url ko create karain (error aay ga) => response bhejain ab => ab usi url ko agar dynamic bnana h so realize it which part is dynamic and us part kay agay route mai : laga do 
+we never create all the above routes 1 by 1 and again and again and here comes the game of dynamic routing so go to browser first => url likho apna jo you need => enter press karain => now us url ko create karain (error aay ga) => response bhejain ab => ab usi url ko agar dynamic bnana h so realize it which part is dynamic and us part kay agay route mai : laga do 
 
 4_ how to get data coming from frontend at backend route 
 
